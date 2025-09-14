@@ -48,8 +48,8 @@ jupyter notebook
 ## Modules (Under construction)
 
 ### 🔍 simbad_queries
-- Look clusters by name
-- Get coordinates and basic data
+- Find clusters by name
+- Get coordinates and basic astrometric data
 - SIMBAD data validation
 
 ### 🌌 gaia_data  
