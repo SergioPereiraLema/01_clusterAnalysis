@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+cluster_env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data files (archivos grandes)
+*.fits
+*.csv
+*.pkl
+*.hdf5
+data/raw/
+data/processed/*.fits
+
+# Figuras temporales
+figures/temp/
+*.png
+*.jpg
+
+# IDE y editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Config files con credenciales
+config/secrets.py
+config/api_keys.py
