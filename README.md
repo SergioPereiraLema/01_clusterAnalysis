@@ -1,88 +1,88 @@
 # ClusterAnalytics
 
-Herramientas modulares para análisis de cúmulos abiertos usando SIMBAD y Gaia DR3.
+Tool to analyze Open Clusters using Gaia. UNDER CONSTRUCTION
 
-## Estructura del proyecto
+## Project structure
 
 ```
 clusterAnalytics/
-├── modules/                 # Módulos funcionales
-│   ├── simbad_queries/     # Consultas a SIMBAD
-│   ├── gaia_data/          # Obtención datos Gaia
-│   ├── visualization/      # Gráficos y plots
-│   └── analysis/           # Algoritmos de análisis
-├── notebooks/              # Cuadernos Jupyter principales
-├── data/                   # Datos del proyecto
-│   ├── raw/               # Datos sin procesar
-│   └── processed/         # Datos procesados
-├── figures/                # Visualizaciones generadas
-├── tests/                  # Tests unitarios
-├── config/                 # Archivos de configuración
-└── docs/                   # Documentación
+├── modules/                 # Functional modules
+│   ├── simbad_queries/     # SIMBAD queries
+│   ├── gaia_data/          # Gaia data extraction
+│   ├── visualization/      # Graphics
+│   └── analysis/           # Analysis algorithms
+├── notebooks/              # Jupyter notebooks
+├── data/                   # Data
+│   ├── raw/               # Raw data
+│   └── processed/         # Processed data
+├── figures/                # Figures generated
+├── tests/                  # Tests
+├── config/                 # Config files
+└── docs/                   # Documentation
 ```
 
-## Instalación del entorno
+## Environment installation
 
 ```bash
-# Crear entorno conda
-conda create -n cluster_env python=3.10 jupyter pandas matplotlib astropy astroquery -c conda-forge
+# Create conda environment
+conda create -n cluster_env python=3.12 jupyter pandas matplotlib astropy astroquery -c conda-forge
 
-# Activar entorno
+# Activate environment
 conda activate cluster_env
 ```
 
-## Uso
+## Use
 
 ```bash
-# Activar entorno
+# Activate environment
 conda activate cluster_env
 
-# Ir al directorio del proyecto
+# Project directory
 cd clusterAnalytics
 
-# Iniciar Jupyter desde notebooks
+# Init Jupyter from notebooks
 cd notebooks
 jupyter notebook
 ```
 
-## Módulos disponibles
+## Modules (Under construction)
 
 ### 🔍 simbad_queries
-- Búsqueda de cúmulos por nombre
-- Obtención de coordenadas y parámetros básicos
-- Validación de datos SIMBAD
+- Look clusters by name
+- Get coordinates and basic data
+- SIMBAD data validation
 
 ### 🌌 gaia_data  
-- Consultas a Gaia DR3
-- Filtrado por región y magnitud
-- Procesamiento de datos astrométricos
+- Queries to Gaia DR3
+- Data filtering
+- Astrometric data processing
 
 ### 📊 visualization
-- Diagramas Hertzsprung-Russell
-- Mapas de distribución espacial
-- Gráficos de movimientos propios
+- Hertzsprung-Russell diagram
+- Spatial distribution maps
+- Proper motion graphs
 
 ### 📈 analysis
-- Determinación de membership
-- Cálculo de distancias
-- Análisis de parámetros físicos
+- Membership analysis
+- Distance analysis
+- Physical properties
 
-## Dependencias principales
+## Dependencies
 
-- `astroquery` - Consultas astronómicas
-- `astropy` - Cálculos astronómicos
-- `pandas` - Manejo de datos
-- `matplotlib` - Visualización
-- `seaborn` - Gráficos estadísticos
-- `jupyter` - Cuadernos interactivos
+- `astroquery` 
+- `astropy` 
+- `pandas` 
+- `matplotlib` 
+- `seaborn` 
+- `jupyter` 
 
-## Contribuir
+## Contributions
 
-1. Fork el repositorio
-2. Crear rama para nueva funcionalidad
-3. Realizar cambios y tests
-4. Crear Pull Request
+1. Fork the repository
+2. Create new branch for new funcionality
+3. Developement and testing
+4. Create Pull Request
 
-## Licencia
+## Licence
 
 MIT License - ver archivo LICENSE para detalles.
