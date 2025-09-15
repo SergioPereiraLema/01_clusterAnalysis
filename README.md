@@ -1,4 +1,4 @@
-# ClusterAnalytics
+# oculus - Open Cluster Unveiling & Limiting Uncertainty Studies 
 
 Tool to analyze Open Clusters using Gaia. UNDER CONSTRUCTION
 
